@@ -3,7 +3,7 @@
 ## author:	jin.jiangli@mayo.edu
 
 ## This script load data from file "household_power_consumption.txt" which date between 1/2/2007 and 2/2/2007,
-## make a plot of the variable "Time" and "Sub_metering_1", "Sub_metering_2", "Sub_metering_3", and save to file "plot4.png"
+## make 4 plots, and save to file "plot4.png"
 
 library("dplyr")
 
@@ -21,6 +21,7 @@ my_hpc <- rename(my_hpc, datetime = Time)
 
 
 png(filename = "plot4.png")
+
 par(mfrow = c(2, 2))
 
 ## plot 1
