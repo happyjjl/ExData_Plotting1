@@ -3,7 +3,7 @@
 ## author:	jin.jiangli@mayo.edu
 
 ## This script load data from file "household_power_consumption.txt" which date between 1/2/2007 and 2/2/2007,
-## make a histogram of the variable "Glabal_active_power",and save to file "plot1.png"
+## make a plot of the variable "Time" and "Glabal_active_power",and save to file "plot2.png"
 
 library("dplyr")
 
